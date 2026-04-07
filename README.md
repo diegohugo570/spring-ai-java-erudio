@@ -35,16 +35,16 @@ Você precisará de uma chave de API da OpenAI (ou outro provedor suportado).
 📌 application.yml ou application.properties
 
 Exemplo:
-
+```
 spring:
   ai:
     openai:
       api-key: SUA_API_KEY_AQUI
-
+```
 Ou via variável de ambiente:
-
+```
 export OPENAI_API_KEY=SUA_API_KEY_AQUI
-
+```
 3️⃣ Build do Projeto
 ```
 mvn clean install
@@ -54,16 +54,22 @@ mvn clean install
 mvn spring-boot:run
 ```
 Ou:
-
+```
 java -jar target/*.jar
+```
 5️⃣ Acessar a API
 
 Servidor disponível em:
-
+```
 👉 http://localhost:8080
+```
+
+---
 
 📡 Endpoints Principais
+
 🔹 Gerar Texto com IA
+
 POST /api/ai/generate
 
 Body:
@@ -81,7 +87,7 @@ Resposta:
 POST /api/ai/chat
 
 Permite interações mais dinâmicas com contexto.
-
+---
 🧠 Decisões Técnicas
 
 -Spring Boot foi escolhido pela robustez e padrão corporativo.
