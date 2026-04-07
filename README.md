@@ -87,7 +87,9 @@ Resposta:
 POST /api/ai/chat
 
 Permite interações mais dinâmicas com contexto.
+
 ---
+
 🧠 Decisões Técnicas
 
 -Spring Boot foi escolhido pela robustez e padrão corporativo.
@@ -105,7 +107,9 @@ Arquitetura em camadas:
 Uso de injeção de dependência para desacoplamento.
 REST APIs para facilitar integração com frontend ou outros serviços.
 Configuração flexível para múltiplos provedores de IA.
+
 ---
+
 📦 Funcionalidades Implementadas
 
 🤖 Geração de texto com IA
@@ -117,7 +121,9 @@ Configuração flexível para múltiplos provedores de IA.
 ⚙️ Configuração desacoplada por propriedades
 
 📡 API REST pronta para consumo
+
 ---
+
 🏗️ Estrutura do Projeto
 ```
 src/main/java/
@@ -127,7 +133,9 @@ src/main/java/
 ├── model/
 └── application.java
 ```
+
 ---
+
 🚀 Deploy
 Backend (Render / Railway / AWS)
 Subir projeto no GitHub
@@ -146,12 +154,16 @@ Variáveis de ambiente:
 ```
 OPENAI_API_KEY
 ```
+
 ---
+
 🔐 Segurança
 Nunca exponha sua API Key no código
 Utilize variáveis de ambiente
 Considere implementar autenticação para endpoints públicos
+
 ---
+
 📈 Possíveis Evoluções
 
 🔐 Autenticação com JWT
@@ -160,7 +172,9 @@ Considere implementar autenticação para endpoints públicos
 🔄 Integração com banco de dados
 📎 Upload e análise de arquivos
 🌐 Integração com frontend (React / Next.js)
+
 ---
+
 🎯 Objetivo do Projeto
 
 Servir como base prática para:
@@ -168,7 +182,9 @@ Aprender Spring AI
 Criar APIs inteligentes com Java
 Integrar aplicações com LLMs
 Evoluir para soluções reais com IA
+
 ---
+
 📚 Referências
 
 https://spring.io/projects/spring-ai
