@@ -108,15 +108,15 @@ Configuração flexível para múltiplos provedores de IA.
 ---
 📦 Funcionalidades Implementadas
 
--🤖 Geração de texto com IA
+🤖 Geração de texto com IA
 
--💬 Chat interativo com contexto
+💬 Chat interativo com contexto
 
--🔌 Integração com OpenAI via Spring AI
+🔌 Integração com OpenAI via Spring AI
 
--⚙️ Configuração desacoplada por propriedades
+⚙️ Configuração desacoplada por propriedades
 
--📡 API REST pronta para consumo
+📡 API REST pronta para consumo
 ---
 🏗️ Estrutura do Projeto
 ```
@@ -133,7 +133,7 @@ Backend (Render / Railway / AWS)
 Subir projeto no GitHub
 Criar serviço Java
 Configurar:
-
+```
 Build Command
 
 mvn clean install
@@ -141,10 +141,11 @@ mvn clean install
 Start Command
 
 java -jar target/*.jar
-
+```
 Variáveis de ambiente:
-
+```
 OPENAI_API_KEY
+```
 ---
 🔐 Segurança
 Nunca exponha sua API Key no código
