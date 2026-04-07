@@ -112,15 +112,15 @@ Configuração flexível para múltiplos provedores de IA.
 
 📦 Funcionalidades Implementadas
 
-🤖 Geração de texto com IA
+- 🤖 Geração de texto com IA
 
-💬 Chat interativo com contexto
+- 💬 Chat interativo com contexto
 
-🔌 Integração com OpenAI via Spring AI
+- 🔌 Integração com OpenAI via Spring AI
 
-⚙️ Configuração desacoplada por propriedades
+- ⚙️ Configuração desacoplada por propriedades
 
-📡 API REST pronta para consumo
+- 📡 API REST pronta para consumo
 
 ---
 
