@@ -166,12 +166,12 @@ Considere implementar autenticação para endpoints públicos
 
 📈 Possíveis Evoluções
 
-🔐 Autenticação com JWT
-📊 Logs e monitoramento
-🧠 Memória de contexto (chat persistente)
-🔄 Integração com banco de dados
-📎 Upload e análise de arquivos
-🌐 Integração com frontend (React / Next.js)
+-🔐 Autenticação com JWT
+-📊 Logs e monitoramento
+-🧠 Memória de contexto (chat persistente)
+-🔄 Integração com banco de dados
+-📎 Upload e análise de arquivos
+-🌐 Integração com frontend (React / Next.js)
 
 ---
 
@@ -187,7 +187,7 @@ Evoluir para soluções reais com IA
 
 📚 Referências
 
-https://spring.io/projects/spring-ai
-https://platform.openai.com/docs
-https://docs.spring.io/spring-boot
+-https://spring.io/projects/spring-ai
+-https://platform.openai.com/docs
+-https://docs.spring.io/spring-boot
 ---
