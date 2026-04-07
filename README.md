@@ -141,13 +141,13 @@ Backend (Render / Railway / AWS)
 Subir projeto no GitHub
 Criar serviço Java
 Configurar:
-```
+
 Build Command
-
+```
 mvn clean install
-
+```
 Start Command
-
+```
 java -jar target/*.jar
 ```
 Variáveis de ambiente:
